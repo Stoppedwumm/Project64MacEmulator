@@ -4,7 +4,7 @@
 BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # 0.1 Download files
-wget "https://github.com/Gcenx/macOS_Wine_builds/releases/download/11.0-rc4/wine-staging-11.0-rc4-osx64.tar.xz"
+curl -O "wine-staging-11.0-rc4-osx64.tar.xz" "https://github.com/Gcenx/macOS_Wine_builds/releases/download/11.0-rc4/wine-staging-11.0-rc4-osx64.tar.xz"
 wget -O "setup_project64.exe" "https://www.pj64-emu.com/download/project64-3-0-1-installer"
 
 # 1. Create the directory
